@@ -16,6 +16,14 @@ body{
     color: pink;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: aliceblue;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: pink;
+}
+
 .e-nav-font-style{
     font-family: 'Ubuntu', sans-serif;
 }
