@@ -1,0 +1,105 @@
+body{
+    background-color: #FEFAF6;
+}
+
+.e-nav-bg{
+    background-color: #1E1E1E;
+    padding-right: 5%;
+}
+
+.e-nav-bg a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.e-nav-bg a:hover{
+    color: pink;
+}
+
+.e-nav-font-style{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@media only screen and (min-width: 1600px){
+    .e-home-style{
+        font-family: 'Itim', 'Ubuntu', sans-serif;
+        font-size: 3.5rem;
+    }
+}
+
+@media only screen and (max-width: 1600px){
+    .e-home-style{
+        font-family: 'Itim', 'Ubuntu', sans-serif;
+        font-size: 2.5rem;
+    }
+}
+
+.e-home-body-style{
+    font-family: 'Itim', 'Ubuntu', sans-serif;
+}
+
+.e-pt-100{
+    padding-top: 100px;
+}
+
+.e-height-1000{
+    height: 1000px;
+}
+
+.e-height-500{
+    height: 500px;
+}
+
+.e-height-400{
+    height: 400px;
+}
+
+.e-height-300{
+    height: 300px;
+}
+
+.e-height-200{
+    height: 200px;
+}
+
+.e-height-100{
+    height: 100px;
+}
+
+.e-width-500{
+    width: 500px;
+}
+
+.e-card-noborder{
+    border: none;
+}
+
+.e-btn-floating{
+    width: 3rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.e-gallery {
+    background: #EEE;
+}
+  
+.e-gallery-cell {
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    counter-increment: gallery-cell;
+}
+  
+  /* cell number */
+.e-gallery-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
+
