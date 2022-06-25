@@ -1,7 +1,7 @@
-<footer class="bg-dark text-center text-white">
+<footer class="e-bg-dark text-center text-white">
     <div class="container p-4 pb-4">
         {{-- S: MEDIA SOCIAL --}}
-        <section class="">
+        <!--<section class="">
             {{-- S: FACEBOOK --}}
                 <a href="#" class="btn btn-outline-light e-btn-floating m-1" role="button">
                     <i class="fa-brands fa-facebook-f fa-lg"></i>
@@ -27,7 +27,7 @@
                 <i class="fa-brands fa-github fa-lg"></i>
             </a>
             {{-- E: GITHUB --}}
-        </section>
+        </section>-->
         {{-- E: MEDIA SOCIAL --}}
     </div>
 

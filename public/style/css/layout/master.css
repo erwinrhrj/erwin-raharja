@@ -1,9 +1,9 @@
 body{
-    background-color: #FEFAF6;
+    background-color: #000000;
 }
 
 .e-nav-bg{
-    background-color: #1E1E1E;
+    background-color: #000000;
     padding-right: 5%;
 }
 
@@ -13,37 +13,41 @@ body{
 }
 
 .e-nav-bg a:hover{
-    color: pink;
+    color: #BC8CF2;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: aliceblue;
+    color: #EEEEEE;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover{
-    color: pink;
+    color: #BC8CF2;
 }
 
 .e-nav-font-style{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Century Gothic','Ubuntu', sans-serif;
 }
 
 @media only screen and (min-width: 1600px){
     .e-home-style{
-        font-family: 'Itim', 'Ubuntu', sans-serif;
-        font-size: 3.5rem;
+        font-family: 'Century Gothic', 'Itim', 'Ubuntu', sans-serif;
+        font-size: 1.5rem;
+        font-weight: bold;
     }
 }
 
 @media only screen and (max-width: 1600px){
     .e-home-style{
-        font-family: 'Itim', 'Ubuntu', sans-serif;
-        font-size: 2.5rem;
+        font-family: 'Century Gothic', 'Itim', 'Ubuntu', sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+
     }
 }
 
 .e-home-body-style{
-    font-family: 'Itim', 'Ubuntu', sans-serif;
+    font-family: 'Century Gothic' ,'Itim', 'Ubuntu', sans-serif;
+    color: #AA14F0;
 }
 
 .e-pt-100{
@@ -83,7 +87,6 @@ body{
 }
 
 .e-btn-floating{
-    width: 3rem;
     height: 2.5rem;
     border-radius: 50%;
     border: 2px solid rgb(255, 255, 255);
@@ -111,3 +114,27 @@ body{
     color: white;
 }
 
+.e-navbar-fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.e-name-style{
+    font-size: 3em;
+    color: #EEEEEE;
+}
+
+.e-hi-style{
+    color: #AA14F0;
+    margin-bottom: -10px;
+    font-size: 1.5em;
+}
+
+.e-mypicture{
+    width: 300px;
+}
+
+.e-bg-dark{
+    background-color: #000000;
+}
