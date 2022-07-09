@@ -6,8 +6,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto e-nav-font-style pe-4">              	
-                <a href="" class="nav-item nav-link pe-3 fw-bold">HOME</a>
-                <a href="" class="nav-item nav-link pe-3 fw-bold">ABOUT</a>
+                <a href="#home" class="nav-item nav-link pe-3 fw-bold">HOME</a>
+                <a href="#about" class="nav-item nav-link pe-3 fw-bold">ABOUT</a>
                 <a href="" class="nav-item nav-link pe-3 fw-bold">WORK</a>
                 <a href="" class="nav-item nav-link pe-3 fw-bold">CONTACT</a>
             </div>

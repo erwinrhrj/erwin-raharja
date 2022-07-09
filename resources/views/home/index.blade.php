@@ -1,13 +1,17 @@
 @extends('layout/master')
 
 @section('content')
-    <div class="container pb-4 pt-4">
+    <div class="container pb-4 pt-4" id="home">
         <div class="row mt-5">
             <div class="col-lg-6 d-flex align-items-center">
                 <div>
                     <div class="e-home-style">
                         <p class="e-hi-style">Hi, I'm </p>
                         <p class="e-name-style">Erwin Raharja</p>
+                    </div>
+                    <div class="e-desc">
+                        Fullstack Developer & based in Bandung <br>
+                        Freelance Web Developer
                     </div>
                     <section class="">
                         {{-- S: FACEBOOK --}}
@@ -40,10 +44,14 @@
             </div>
             <div class="col-lg-6 d-flex justify-content-center">
                 <div class="p-4">
-                    <img src="{{ asset('images/erwin-photo.jpeg') }}" class="rounded e-mypicture" alt="erwin">
+                    <img src="{{ asset('images/erwin-photo2.jpg') }}" class="rounded e-mypicture" alt="erwin">
                 </div>
             </div>
         </div>
+
+        {{-- START ABOUT --}}
+        @include('about/index')
+        {{-- END ABOUT --}}
 
 
         {{-- <div class="row mt-2">
@@ -76,6 +84,21 @@
             autoplay: true,
             autoplaySpeed: 2000,
         });
+
+        $('.bar-percentage[data-percentage]').each(function () {
+        var progress = $(this);
+        var percentage = Math.ceil($(this).attr('data-percentage'));
+        $({countNum: 0}).animate({countNum: percentage}, {
+            duration: 2000,
+            easing:'linear',
+            step: function() {
+            // What todo on every count
+            var pct = Math.floor(this.countNum) + '%';
+            progress.text(pct) && progress.siblings().children().css('width',pct);
+            }
+        });
+        });
+
 
     });
 </script>
