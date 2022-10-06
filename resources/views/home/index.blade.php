@@ -50,7 +50,9 @@
         </div>
 
         {{-- START ABOUT --}}
-        @include('about/index')
+        @include('profile/index')
+        @include('experiences/index')
+        @include('abilities/index')
         {{-- END ABOUT --}}
 
 

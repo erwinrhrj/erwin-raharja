@@ -3,6 +3,21 @@ body{
     font-family: 'Century Gothic','Ubuntu', sans-serif;
 }
 
+.container{padding:95px 40px 40px 40px}
+.container-side {padding: 40px 0px;}
+h2 {text-align: center;}
+
+hr {
+    margin: 40px 0px;
+    opacity: 0.75;
+    border: 1px solid #fdfdfd;
+}
+
+@media (max-width: 767px) { 
+    #profile .row * {text-align: center;}
+    #profile .row > div {margin-bottom: 20px;}
+}
+
 .e-nav-bg{
     background-color: #000000;
     padding-right: 5%;
@@ -87,6 +102,10 @@ body{
     width: 150px;
 }
 
+.e-width-200{
+    width: 200px;
+}
+
 .e-card-noborder{
     border: none;
 }
@@ -165,6 +184,8 @@ body{
 }
 
 .e-border-menu {
+    margin: 30px;
+    padding: 30px;
     text-decoration: none; 
     position: relative; 
   }   
@@ -220,3 +241,20 @@ body{
  .e-purple-soft{
     color: #BC8CF2;
  }
+
+#experiences .experience {
+    margin-bottom: 40px;
+}
+
+#experiences .experience .experience-details * {
+    color: #BC8CF2;
+}
+
+#experiences .experience .experience-details {
+    display: block;
+    margin-top: 6px;
+}
+
+#experiences .experience .experience-details .seperator {
+    color: #BC8CF2;
+}
