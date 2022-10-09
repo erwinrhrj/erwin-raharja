@@ -6,8 +6,8 @@
             <div class="col-lg-6 d-flex align-items-center">
                 <div>
                     <div class="e-home-style">
-                        <p class="e-hi-style">Hi, I'm </p>
-                        <p class="e-name-style">Erwin Raharja</p>
+                        <h3 class="e-hi-style">Hi, I'm </h3>
+                        <h1 class="e-name-style">Erwin Raharja</h1>
                     </div>
                     <div class="e-desc">
                         Fullstack Developer & based in Bandung <br>
@@ -15,27 +15,27 @@
                     </div>
                     <section class="">
                         {{-- S: FACEBOOK --}}
-                            <a href="#" class="btn btn-outline-light e-btn-floating m-1" role="button">
+                            <a href="http://www.facebook.com/erwinrhrj" target="_blank" class="btn btn-outline-light e-btn-floating m-1" role="button">
                                 <i class="fa-brands fa-facebook-f fa-lg"></i>
                             </a>
                         {{-- E: FACEBOOK --}}
                         {{-- S: INSTAGRAM --}}
-                        <a href="#" class="btn btn-outline-light e-btn-floating m-1" role="button">
+                        <a href="http://www.instagram.com/erwinrhrj" target="_blank" class="btn btn-outline-light e-btn-floating m-1" role="button">
                             <i class="fa-brands fa-instagram fa-lg"></i>
                         </a>
                         {{-- E: INSTAGRAM --}}
                         {{-- S: GOOGLE --}}
-                        <a href="#" class="btn btn-outline-light e-btn-floating m-1" role="button">
+                        <a href="mailto:erenraharja@gmail.com" title="Send me an email" class="btn btn-outline-light e-btn-floating m-1" role="button">
                             <i class="fa-brands fa-google fa-lg"></i>
                         </a>
                         {{-- E: GOOGLE --}}
                         {{-- S: LINKEDIN --}}
-                        <a href="#" class="btn btn-outline-light e-btn-floating m-1" role="button">
+                        <a href="http://www.linkedin.com/in/erwin-raharja-4b4973195" target="_blank" class="btn btn-outline-light e-btn-floating m-1" role="button">
                             <i class="fa-brands fa-linkedin fa-lg"></i>
                         </a>
                         {{-- E: LINKEDIN --}}
                         {{-- S: GITHUB --}}
-                        <a href="#" class="btn btn-outline-light e-btn-floating m-1" role="button">
+                        <a href="http://github.com/erwinrhrj" target="_blank" class="btn btn-outline-light e-btn-floating m-1" role="button">
                             <i class="fa-brands fa-github fa-lg"></i>
                         </a>
                         {{-- E: GITHUB --}}
@@ -53,6 +53,7 @@
         @include('profile/index')
         @include('experiences/index')
         @include('abilities/index')
+        @include('contact/index')
         {{-- END ABOUT --}}
 
 
