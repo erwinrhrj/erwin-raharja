@@ -11,7 +11,7 @@
                 <a href="#experiences" class="nav-item nav-link pe-3 fw-bold">EXPERIENCES</a>
                 <a href="#abilities" class="nav-item nav-link pe-3 fw-bold">ABILITIES</a>
                 <a href="" class="nav-item nav-link pe-3 fw-bold">PROJECTS</a>
-                <a href="" class="nav-item nav-link pe-3 fw-bold">CONTACT</a>
+                <a href="" class="nav-item nav-link pe-3 fw-bold">CONTACT</a>  
             </div>
         </div>
     </div>
