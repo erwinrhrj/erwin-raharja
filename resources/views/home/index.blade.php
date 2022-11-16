@@ -15,12 +15,12 @@
                     </div>
                     <section class="">
                         {{-- S: FACEBOOK --}}
-                            <a href="http://www.facebook.com/erwinrhrj" target="_blank" class="btn btn-outline-light e-btn-floating m-1" role="button">
+                            <a href="http://www.facebook.com/erwinrhrj" target="_blank" title="Facebook" class="btn btn-outline-light e-btn-floating m-1" role="button">
                                 <i class="fa-brands fa-facebook-f fa-lg"></i>
                             </a>
                         {{-- E: FACEBOOK --}}
                         {{-- S: INSTAGRAM --}}
-                        <a href="http://www.instagram.com/erwinrhrj" target="_blank" class="btn btn-outline-light e-btn-floating m-1" role="button">
+                        <a href="http://www.instagram.com/erwinrhrj" target="_blank" title="Instagram" class="btn btn-outline-light e-btn-floating m-1" role="button">
                             <i class="fa-brands fa-instagram fa-lg"></i>
                         </a>
                         {{-- E: INSTAGRAM --}}
@@ -30,15 +30,20 @@
                         </a>
                         {{-- E: GOOGLE --}}
                         {{-- S: LINKEDIN --}}
-                        <a href="http://www.linkedin.com/in/erwin-raharja-4b4973195" target="_blank" class="btn btn-outline-light e-btn-floating m-1" role="button">
+                        <a href="http://www.linkedin.com/in/erwin-raharja-4b4973195" title="LinkedIn" target="_blank" class="btn btn-outline-light e-btn-floating m-1" role="button">
                             <i class="fa-brands fa-linkedin fa-lg"></i>
                         </a>
                         {{-- E: LINKEDIN --}}
                         {{-- S: GITHUB --}}
-                        <a href="http://github.com/erwinrhrj" target="_blank" class="btn btn-outline-light e-btn-floating m-1" role="button">
+                        <a href="http://github.com/erwinrhrj" target="_blank" title="Github" class="btn btn-outline-light e-btn-floating m-1" role="button">
                             <i class="fa-brands fa-github fa-lg"></i>
                         </a>
                         {{-- E: GITHUB --}}
+                        {{-- S: SPOTIFY --}}
+                        <a href="https://open.spotify.com/user/31lp44mtn6qh3cwmxfdb5becq2zu?si=d6bb9a0a5b704f11" title="Spotify" target="_blank" class="btn btn-outline-light e-btn-floating m-1" role="button">
+                            <i class="fa-brands fa-spotify fa-lg"></i>
+                        </a>
+                        {{-- E: SPOTIFY --}}
                     </section>
                 </div>
             </div>

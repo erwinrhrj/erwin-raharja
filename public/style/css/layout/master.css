@@ -3,6 +3,15 @@ body{
     font-family: 'Century Gothic','Ubuntu', sans-serif;
 }
 
+#e-bg{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
 .container{padding:95px 40px 40px 40px}
 .container-side {padding: 40px 0px;}
 h2 {text-align: center;}
@@ -142,6 +151,7 @@ hr {
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 1;
 }
 
 .e-name-style {

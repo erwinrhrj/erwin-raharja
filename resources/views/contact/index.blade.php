@@ -6,18 +6,25 @@
             <center>
                 <div class="direct-contact-container">
                     <ul class="social-media-list">
-                        <li><a href="http://www.instagram.com/erwinrhrj" target="_blank" role="button">
-                            <i class="fa-brands fa-instagram fa-lg"></i>
-                        </a>
+                        <li>
+                            <a href="http://www.linkedin.com/in/erwin-raharja-4b4973195" target="_blank" class="contact-icon">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
                         </li>
-                        <li><a href="http://www.linkedin.com/in/erwin-raharja-4b4973195" target="_blank" class="contact-icon">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <li>
+                            <a href="https://github.com/erwinrhrj" target="_blank" role="button">
+                                <i class="fa-brands fa-github fa-lg"></i>
+                            </a>
                         </li>
-                        <li><a href="http://www.facebook.com/erwinrhrj" target="_blank" class="contact-icon">
-                            <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <li>
+                            <a href="http://www.facebook.com/erwinrhrj" target="_blank" class="contact-icon">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
                         </li>
-                        <li><a href="http://www.instagram.com/erwinrhrj" target="_blank" class="contact-icon">
-                            <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <li>
+                            <a href="http://www.instagram.com/erwinrhrj" target="_blank" class="contact-icon">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
                         </li>       
                     </ul>
                 </div>

@@ -32,6 +32,8 @@
 
 </head>
 <body>
+
+    <div id="e-bg"></div>
     
     {{-- START: TOPBAR --}}
         @include('layout/header')
@@ -46,6 +48,8 @@
         @include('layout/footer')
     {{-- END: FOOTER --}}
 
+    <script type="text/javascript" src="{{ asset('particles-js/particles.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('particles-js/custom.js') }}"></script>
 </body>
 
 
