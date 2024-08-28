@@ -82,6 +82,7 @@
 @endsection
 
 @section('javascript')
+
 <script>
     $(document).ready(function(){
 
@@ -106,6 +107,8 @@
             }
         });
         });
+
+        
 
 
     });

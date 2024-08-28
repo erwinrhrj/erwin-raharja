@@ -55,7 +55,17 @@
 
 <script src="{{ asset('jquery/jquery-3.6.0.min.js') }}"></script>
 <script src="{{ asset('slick-master/slick/slick.js') }}"></script>
+<script>
+    $(document).ready(function(){
+        //SAVE-IP
+        var APP_URL = {!! json_encode(url('/')) !!}
+        // console.log(APP_URL);
 
+        $.post(APP_URL+"/api/save-ip", function( data ) {
+            // console.log(data+'cekcek');
+        });
+    });
+</script>
 @yield('javascript')
 
 

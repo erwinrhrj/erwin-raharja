@@ -22,7 +22,7 @@
                 <br>
                 <strong class="e-name-color">Age :</strong>
                 <br>
-                <span class="e-name-color">21 Years</span>
+                <span class="e-name-color" id="age-me"></span>
                 <br>
                 <strong class="e-name-color">Location :</strong>
                 <br>
@@ -31,3 +31,18 @@
         </div>
     </div>
 </div>
+
+@section('javascript')
+<script>
+    $(document).ready(function(){
+        var dob = new Date("11/29/2000");
+        var month_diff = Date.now() - dob.getTime();
+        var age_dt = new Date(month_diff); 
+        var year = age_dt.getUTCFullYear();
+        
+        var age = Math.abs(year - 1970);
+        
+        $('#age-me').text(age+" Years");
+    });
+</script>
+@endsection
